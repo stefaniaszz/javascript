@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem</title>
+    <style>
+        button {
+            font-size: 12pt; padding: 20px;
+            background-color: rgba(65, 236, 65, 0.836);
+        }
+       body {
+            font: 12pt Tahoma;
+            background-color: rgb(182, 178, 178);
+       }
+    </style>
+</head>
+<body>
+    <h1>Desafio das Mensagens</h1>
+    <button onclick="clicou()">Botão 1</button>
+        <script>
+            function clicou() {
+            window.alert('Você clicou no 1º botão!')
+        }
+        </script>
+    <button onclick="clicou()">Botão 2</button>
+        <script>
+            function clicou() {
+            window.confirm('Você clicou no 2º botão!')
+            }
+        </script>
+</body>
+</html>
